@@ -1,16 +1,22 @@
-# React + Vite
+# React Shopping Cart Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## Overview
+This is a front-end web application built as part of a course assignment. It simulates an online shop with a functional shopping cart. Users can view a list of predefined products, add them to their cart, adjust quantities, and view the total price dynamically.
 
-Currently, two official plugins are available:
+## Features
+- **Product List:** Displays 6 predefined products with their names and prices.
+- **Add to Cart:** Users can add products to the cart. If a product is already in the cart, it increments the quantity.
+- **Quantity Adjustment:** Inside the cart, users can use `+` and `-` buttons to change the quantity of a specific item. 
+- **Remove Items:** If the quantity of an item is reduced to 0, it is automatically removed from the cart.
+- **Dynamic Total:** The total sum of all items in the cart is calculated and updated in real-time.
+- **State Management:** Utilizes React's `useState` hook to manage the cart's data across the application.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used
+- **React:** For building the user interface and managing state.
+- **Vite:** As the build tool and local development server.
+- **JavaScript (ES6+):** Core logic and array manipulation (`.map`, `.find`, `.reduce`, `.filter`).
+- **CSS:** Basic inline styling for layout.
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+2. Open your terminal and navigate to the project folder:
+   ```bash
+   cd shopping-cart
