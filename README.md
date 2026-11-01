@@ -1,4 +1,4 @@
-# React Shopping Cart Application
+# React Shopping Cart project
 
 ## Overview
 This is a front-end web application built as part of a course assignment. It simulates an online shop with a functional shopping cart. Users can view a list of predefined products, add them to their cart, adjust quantities, and view the total price dynamically.
