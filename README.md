@@ -17,6 +17,6 @@ This is a front-end web application built as part of a course assignment. It sim
 - **JavaScript (ES6+):** Core logic and array manipulation (`.map`, `.find`, `.reduce`, `.filter`).
 - **CSS:** Basic inline styling for layout.
 
-2. Open your terminal and navigate to the project folder:
-   ```bash
-   cd shopping-cart
+## Note:
+The dashboard can be viewed on vercel.com using the link below.
+https://shopping-cart-x7g6.vercel.app/
